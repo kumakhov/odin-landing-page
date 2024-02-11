@@ -62,7 +62,7 @@ ul {
 
 .header h1 {
     font-size: 64px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .header p {
@@ -88,22 +88,41 @@ ul {
 }
 
 .someinfo {
+    margin-bottom: 100px;
     display: flex;
-    justify-items: center;
+    align-items: center;
     flex-direction: column;
 }
 
-.someinfo h1 {
-    flex: 1;
+.randinfo {
+    margin: 50px 0px;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
-.content {
+.info {
     display: flex;
-    margin: 0 auto;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact {
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap;
+    margin: 50px;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact p {
+    max-width: 100px;
 }
 
 .fact img {
     max-width: 100px;
-    border: solid black;
+    border: solid #3882f6;
     border-radius: 20%;
 }
