@@ -18,6 +18,8 @@ ul {
     flex: 1;
 }
 
+/* navbar */
+
 .navbar {
     background: #1f2937;
     color: #f9faf8;
@@ -47,6 +49,8 @@ ul {
     gap: 18px;
     align-items: center;
 }
+
+/* header thing */
 
 .header {
     background: #1f2937;
@@ -86,6 +90,8 @@ ul {
     transition-duration: 0.4s;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* some info */
 
 .someinfo {
     margin-bottom: 100px;
