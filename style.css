@@ -125,6 +125,7 @@ ul {
 
 .fact p {
     max-width: 100px;
+    text-align: center;
 }
 
 .fact img {
